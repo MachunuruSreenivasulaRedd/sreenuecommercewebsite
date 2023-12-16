@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'

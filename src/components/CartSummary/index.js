@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import CartContext from '../../context/CartContext'
 import './index.css'
 
@@ -19,9 +20,14 @@ const CartSummary = () => (
             {itemsCount}{' '}
             {`${itemsCount === 1 ? 'Item in cart' : 'Items in cart'}`}
           </p>
-          <button type="button" className="checkoutBtn">
+          <a
+            href="https://buy.stripe.com/test_fZeg2Ocph1BDdOMcMM"
+            target="_blank"
+            className="checkoutBtn"
+            rel="noreferrer"
+          >
             Checkout
-          </button>
+          </a>
         </div>
       )
     }}

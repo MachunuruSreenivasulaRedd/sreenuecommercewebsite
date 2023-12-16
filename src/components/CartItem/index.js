@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import {BsPlusSquare, BsDashSquare} from 'react-icons/bs'
 import {AiFillCloseCircle} from 'react-icons/ai'
 
@@ -41,11 +43,7 @@ const CartItem = props => (
                 />
               </button>
               <p className="cart-quantity">{quantity}</p>
-              <button
-                type="button"
-                className="quantity-controller-button"
-                data-testid="plus"
-              >
+              <button type="button" className="quantity-controller-button">
                 <BsPlusSquare
                   color="#52606D"
                   size={12}
